@@ -1,0 +1,626 @@
+.sidebar{
+background-color: #444141;
+width: 360px;
+height: 50px;
+display: flex;
+ height: 1000px;
+ position: fixed;
+ justify-content: space-around;
+ align-items: center;
+
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.Home{
+color: rgb(202, 192, 192);
+text-decoration: none;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.Home:hover{
+    color: white;
+}
+.About{
+    color: rgb(202, 192, 192);
+text-decoration: none;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.About:hover{
+    color: white;
+}
+.project{
+    color:rgb(202, 192, 192);
+text-decoration: none;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.project:hover{
+    color: white;
+}
+.Contact{
+    color:rgb(202, 192, 192);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Contact:hover{
+    color: white;
+}
+.services{
+    color:rgb(202, 192, 192);
+text-decoration: none;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.services:hover{
+    color: white;
+}
+.links{
+   display: flex;
+   flex-direction: column;
+    justify-content: space-around;
+    height: 270px;
+    align-items: right;
+    padding-top: 10px;
+}
+h3{
+    color:rgb(202, 192, 192);
+    font-size: xx-large;
+    text-decoration: underline;
+
+}
+h3:hover{
+    color: white;
+}
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+.about{
+    position: absolute;
+    left: 460px;
+    top: 340px;
+    width: 300px;
+}
+.name{
+    color: #5c5555;
+    font-size: 25px;
+}
+.intro{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 0%;
+    line-height: 1px;
+    width: 900px;
+    animation: typing  2s infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes typing {
+    10%
+    {  font-size: 30px;
+    
+           }
+}
+.btn1{
+    background-color:  #444141 ;
+    width: 150px;
+    height: 46px;
+    color: white;
+    border: none;
+
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: black;
+    transition-duration: 1s;
+  transform-origin: 0%;
+}
+/* .img1{
+    position: absolute;
+    left: 1200px;
+    width: 230px;
+    top: 240px;
+    height: 400px; */
+    .img1 {
+        display: block;
+        position: absolute;
+        left: 1200px;
+        width: 230px;
+        top: 240px;
+        height: 400px;
+       
+       
+        border: 5px solid transparent; 
+        border-radius: 10px;
+        animation: pulse-border 2s infinite; 
+    }
+    
+    
+    @keyframes pulse-border {
+        0% {
+            border-color: rgba(0, 0, 0, 0.5); 
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  */
+        }
+        50% {
+            border-color: rgba(0, 0, 0, 1);
+            /* box-shadow: 0 0 20px rgba(0, 0, 0, 1);  */
+        }
+        100% {
+            border-color: rgba(0, 0, 0, 0.5); 
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  */
+        }
+    }
+    body{
+        background-color: rgb(247, 246, 246);
+    }
+.introduction{
+    position: absolute;
+    left: 530px;
+   display: flex;
+   flex-direction: column;
+    width: 500px;
+    top: 150px;
+}
+.btn{
+    display:  block;
+   line-height: 4px;
+   background-color:  #444141 ;
+   width: 150px;
+   height: 46px;
+   color: white;
+   border: none;
+   margin-top: 30px;
+   padding: 20px;
+}
+.btn:hover{
+    background-color: black;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.biography{
+    color:rgb(109, 106, 106) ;
+    width: 480px;
+    font-size:17px;
+    font-family:  "Roboto Slab";
+    line-height: 19px;
+    margin-top: 10px;
+  
+}
+h2{
+    color: black;
+    font-size: 23px;
+    font-family:  "Roboto Slab";
+    margin-bottom: 30px;
+
+}
+.details{
+    position: absolute;
+    right: 0px;
+    
+   display: flex;
+   flex-direction: column;
+    width: 500px;
+    top: 150px;
+}
+.line1{
+    position: absolute;
+    background-color: #cabebe;
+    right: 110px;
+    width: 950px;
+    top: 550px;
+    height: 1px;
+}
+
+.heading{
+    color: black;
+    font-size: 23px;
+    font-family:  "Roboto Slab";
+    position: absolute;
+    left: 530px;
+  
+    width: 500px;
+    top:600px;
+}
+.skills{
+    width: 100%;
+    position: absolute;
+    left: 520px;
+    top:700px;
+    max-width: 380px;
+    padding: 0 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.skill-name{
+    font-size: 18px;
+    font-weight: 800;
+    margin: 20px 0;
+    color: #746e6e;
+}
+
+.skillbar{
+    height: 4px;
+    background: rgb(173, 169, 169);
+    border-radius: 3px;
+}
+.skill-per{
+    height: 4px;
+    background: rgb(56, 54, 54);
+    border-radius: 3px;
+    position: relative;
+    animation: progress 2.5sec 1;
+}
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding:4px 6px ;
+    color: rgb(109, 106, 106);
+    font-size: 18px;
+    font-weight: 700;
+    top: -43px;
+   right: 0;
+   transform: translateX(50%);
+}
+.skill-per::after{
+content: "";
+position: absolute;
+width: 10px;
+height: 10px;
+}
+
+@keyframes progress {
+    from{
+        width: 0;
+    }
+  to{
+    width: 100%;
+  }
+}
+
+
+.h2{
+    color: black;
+    font-size: 23px;
+    font-family:  "Roboto Slab";
+    position: absolute;
+  
+  right:0 ;
+    width: 500px;
+    top:600px;
+}
+.langs{
+    width: 100%;
+    position: absolute;
+ right: 90px;
+    top:700px;
+    max-width: 380px;
+    padding: 0 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.lang-name{
+    font-size: 18px;
+    font-weight: 800;
+    color: #746e6e;
+    margin: 20px 0;
+}
+
+.langbar{
+    height: 4px;
+    background: rgb(173, 169, 169);
+    border-radius: 3px;
+}
+.lang-per{
+    height: 4px;
+    background: rgb(56, 54, 54);
+    border-radius: 3px;
+    position: relative;
+    animation: progress 2.5sec 1;
+}
+.lang-per::before{
+    content: attr(per);
+    position: absolute;
+    padding:4px 6px ;
+    color: rgb(109, 106, 106);
+    font-size: 18px;
+    font-weight: 700;
+    top: -43px;
+   right: 0px;
+   transform: translateX(50%);
+}
+.lang-per::after{
+content: "";
+position: absolute;
+width: 10px;
+height: 10px;
+}
+
+@keyframes progress {
+    from{
+        width: 0;
+    }
+  to{
+    width: 100%;
+  }
+}
+.line2{
+    position: absolute;
+    background-color: #cabebe;
+    right: 110px;
+    width: 950px;
+    top: 980px;
+    height: 1px;
+}
+.h3{
+    color: black;
+    font-size: 23px;
+    font-family:  "Roboto Slab";
+    position: absolute;
+  
+  left: 530px;
+    width: 500px;
+    top:1050px;
+}
+.interest{
+    left: 545px;
+    top:1120px;
+    position: absolute;
+    color: #746e6e;
+    font-size: 18px;
+    font-weight: 800;
+}
+.h4{
+    color: black;
+    font-size: 23px;
+    font-family:  "Roboto Slab";
+    position: absolute;
+  
+  right: 0px;
+    width: 500px;
+    top:1030px;
+}
+.softskill{
+    right: 20px;
+    top:1100px;
+    position: absolute;
+    color: #746e6e;
+    font-size: 18px;
+    font-weight: 800;
+}
+.line3{
+    position: absolute;
+    background-color: #cabebe;
+    right: 110px;
+    width: 950px;
+    top: 1400px;
+    height: 1px;
+}
+.h5{
+    color: black;
+    font-size: 23px;
+    font-family:  "Roboto Slab";
+    position: absolute;
+  
+  right:550px;
+    width: 500px;
+    top:1450px;
+}
+.experience{
+    right: 150px;
+    top:1530px;
+    position: absolute;
+    color: #746e6e;
+    font-size: 18px;
+    font-weight: 800;
+}
+.line4{
+    position: absolute;
+    background-color: #cabebe;
+    right: 110px;
+    width: 950px;
+    top: 1800px;
+    height: 1px;
+}
+.head1{
+    color: black;
+    font-size: 23px;
+    font-family:  "Roboto Slab";
+    position: absolute;
+  left: 500px;
+    width: 500px;
+    top:90px;
+}
+.servicesmain{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-evenly;
+    position: absolute;
+    align-items: center;
+    left: 470px;
+    top: 250px;
+    width: 1000px;
+}
+.ser1{
+    border: 2px solid rgb(167, 159, 159); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+}
+.ser1:hover{
+    background-color: #d3cdcd;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.ser2{
+    border: 2px solid rgb(167, 159, 159); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+}
+.ser2:hover{
+    background-color: #d3cdcd;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.ser3{
+    border: 2px solid rgb(167, 159, 159); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+}
+.ser3:hover{
+    background-color: #d3cdcd;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.image{
+    width: 30px;
+    margin-top: 10px;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-evenly;
+    position: absolute;
+    align-items: center;
+    left: 470px;
+    top: 680px;
+    width: 1000px;
+}
+.ser4{
+    border: 2px solid rgb(167, 159, 159); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+}
+.ser4:hover{
+    background-color: #d3cdcd;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.ser5{
+    border: 2px solid rgb(167, 159, 159); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+}
+.ser5:hover{
+    background-color: #d3cdcd;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.ser6{
+    border: 2px solid rgb(167, 159, 159); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+}
+.ser6:hover{
+    background-color: #d3cdcd;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.contact2{
+    color: black;
+    font-size: 23px;
+    font-family:  "Roboto Slab";
+    position: absolute;
+    left: 520px;
+  
+    width: 500px;
+    top:100px;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+   align-items: center;
+   
+    position: absolute;
+    left:530px ;
+    top: 170px;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+
+}
+.box1{
+    border: 2px solid rgb(167, 159, 159); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    justify-content: space-around;
+}
+.box2{
+    border: 2px solid rgb(167, 159, 159); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    justify-content: space-around;
+}
+.container_1{
+    position: absolute;
+    top: 320px; left: 700px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    position: absolute;
+   
+}
+form input, form textarea{
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+ border: 1 px solid rgb(167, 159, 159);
+ width: 300px;
+}
+form button{
+    background-color:  #444141 ;
+    width: 150px;
+    height: 46px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+form button:hover{
+    background-color: black;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+     
